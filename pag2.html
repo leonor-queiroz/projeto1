@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>Especificações e Multimédia</title>
+   </head>
+
+   <body>
+   
+       <!--Usei CSS como forma de tornar o código mais organizado-->
+       <style>
+	       h1 {font-family: "Arial Black"; color: #ffffff; background-color: #991b1b; display: inline-block; padding: 12px 24px; border-left: 6px solid #0f172a; border-radius: 4px; letter-spacing: 1px; text-transform: uppercase; font-size: 1.8rem; }
+	       h3 { color: #430505;  font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 24px; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+		   .p-linha-tabela { border: 1px solid #731502; background-color: #990b0b; color: #fde7e7; padding: 8px }
+		   .p-coluna-tabela { border: 1px solid #731502; background-color: #fde7e7; color: #6e0808; padding: 8px; }
+		   td { border: 1px solid #731502; padding: 8px;}
+		   .lista-ordenada { padding: 8px; margin-bottom: 6px; background-color: #fff2f2; border-left: 4px solid #a83232; border radius: 4px; }
+        
+	   </style>
+       <h1><u>Galeria de Dados Técnicos</u></h1>
+
+      
+	   <div style="margin: 10px; margin-top: 60px">
+	   <h3><u>Carro em Destaque</u></h3>
+	   </div>
+	   <div style="margin: 20px; margin-bottom: 60px">
+       <img src="bmw_m4_competition.jpg" alt="Carro Desportivo (BMW M4 Competition)" width="600" height="400" style="border: 5px solid #430505; border-width: 8px; border-radius: 10px" /> 
+	   </div>
+
+       <!--Elemento 6: Vídeo-->
+	   <div style="margin: 10px; margin-top: 60px">
+       <h3><u>Demonstração em Vídeo</u></h3>
+	   </div>
+	   <div style="margin: 20px; margin-bottom: 60px">
+       <video src="bmw_m4_competition_video.mp4" alt="Carro Desportivo (BMW M4 Competition)" width="600" height="337,5" style="border: 5px solid #430505;  border-width: 9px; border-radius: 10px" controls>O teu vídeo não funciona</video>
+	   </div>
+	   
+       <!--Elemento 7: Tabela-->
+	   <div style="margin: 10px; margin-top: 60px">
+          <h3><u>Comparativo de Modelos</u></h3>
+	   </div>
+	   <div style="margin: 20px; margin-bottom: 60px">
+       <table style="border: 2px solid #731502; padding: 8px; border-collapse: collapse; text-align: center;">
+           <tr style="border: 1px solid #731502">
+		       <th style="border: 1px solid #731502; background-color: #731502"></th>
+               <th class="p-linha-tabela">Marca e Modelo</th>
+               <th class="p-linha-tabela">Potência (cv)</th>
+               <th class="p-linha-tabela">0-100 km/h</th>
+           </tr>
+		   <tr style="border: 1px solid #731502; padding: 8px">
+		       <th class="p-coluna-tabela">Desportivo</th>
+               <td>Nissan GTR NISMO</td>
+			   <td>600 cv</td>
+			   <td>2,5 a 2,8 segundos</td>
+			</tr>   
+		   <tr style="border: 1px solid #731502">
+		       <th class="p-coluna-tabela">SUV</th>
+		       <td>Lamborghini Uros</td>
+		       <td>650 cv</td>
+		       <td>3,6 segundos</td>
+		   </tr>
+		   <tr style="border: 1px solid #731502">
+		       <th class="p-coluna-tabela">Elétrico/Híbrido</th>
+		       <td>BMW i8</td>
+		       <td>362 cv</td>
+		       <td>4,4 a 4,6 segundos</td>
+		   </tr>   
+		   <tr style="border: 1px solid #731502">
+		       <th class="p-coluna-tabela">Clássico</th>
+		       <td>Volkswagen Carocha</td>
+		       <td>50 cv</td>
+		       <td>21 a 30 segundos</td>
+		   </tr>
+       </table>
+	   </div>
+	   
+	   
+	   <!--Elemento 8: Lista Ordenada-->
+	   <div style="margin: 10px; margin-top: 60px">
+	   <h3><u>Top 3 Carros mais Rápidos (Velocidade Máxima):</u></h3>
+	   </div>
+	   <div style="margin: 20px; margin-bottom: 60px">  
+		   <ol style="max-width: 500px; margin: 20px; padding-left: 24px">
+	           <li class="lista-ordenada">Koenigsegg Jesko Absolut (531 km/h)</li>
+		       <li class="lista-ordenada">Yangwang U9 Xtreme (496 km/h)</li>
+		       <li class="lista-ordenada">Buggati Chiron Supersport 300+ (489 km/h)</li>
+			   </div>
+	       </ol>
+	   
+	   <p><a href="index.html">Voltar à Página Inicial</a></p>
+	  
+       
+
+   </body>
+</html>
